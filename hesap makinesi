@@ -1,0 +1,29 @@
+def add(a,b):
+  print(a+b)
+def sub(a,b):
+   print(a-b)
+def mul(a,b):
+   print(a*b)
+def div(a,b):
+   print(a/b)
+a=int(input("Zahl1="))
+b=int(input("zahl2="))
+operator=input("Operation")
+if operator=="+":
+  rechner .add(a,b)
+elif operator=="-":
+  rechner .sub(a,b)
+elif operator=="*":
+  rechner .mul(a,b)
+elif operator=="/":
+  rechner .div(a,b)
+else:
+  print("Fehler")
+  f=input("Neue Aufgabe (Y/N)")
+if f=="Y" or f=="y":
+   continue 
+elif f=="N" or "n":
+   break
+else:
+   break
+print("Ende")
