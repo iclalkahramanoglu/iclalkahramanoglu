@@ -1,0 +1,17 @@
+def kreis_umfang(r):
+  pi=3.14
+  print("Umfang="+ str(2*pi*r))
+  
+  def kreis_flache(r):
+    pi=3.14
+    print("Flaeche=" + str(pi*r*r))
+    
+    def zylinder_volumen(r,h):
+      pi=3.14
+      print("Flaeche=" + str(pi*r*r*h))
+import test
+print("Was wollen Sie machen ? bitte eingaben")
+f=int(input("1 für Umfang, 2 für Flaeche, 3 für Volumen"))
+if f==1:
+  r=float(input("Radius: "))
+  test.kreis_umfang(r)
